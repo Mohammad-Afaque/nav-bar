@@ -208,16 +208,10 @@ a {
 }
 .rainbow {
   display: flex;
-  flex: 1;
-  color: white;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
-nav {
-  display: flex;
-}
+
 .box {
-  display: flex;
   flex: 1;
-  width: 100%;
-  padding: 25px;
+  padding: 10px;
 }
